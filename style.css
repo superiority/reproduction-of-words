@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282A36;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.wrapper__title {
+    font-size: 20px;
+    color: #89E4F8;
+}
+
+.wrapper__text {
+    width: 350px;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    resize: none;
+}
+
+.button {
+    background-color: #fff;
+    color: #555555;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius: 12px;
+}
