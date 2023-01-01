@@ -11,7 +11,7 @@ function speakText() {
     window.speechSynthesis.cancel();
 
     if (textEl.value === '') {
-        alert('none')
+        alert('тишина...')
         return;
     }
 
