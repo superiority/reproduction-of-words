@@ -17,7 +17,8 @@ body {
 
 .wrapper__title {
     font-size: 20px;
-    color: #89E4F8;
+    color: #fff;
+
 }
 
 .wrapper__text {
@@ -27,6 +28,26 @@ body {
     margin-right: 15px;
     resize: none;
     font-size: 16px;
+    background-color: black;
+    border: black;
+    color: white;
+    text-shadow: 0 0 3px #fff,
+    0 0 6px #fff,
+    0 0 9px #fff,
+    0 0 12px #0fa,
+    0 0 16px #0fa,
+    0 0 19px #0fa,
+    0 0 22px #0fa,
+    0 0 30px #0fa;
+
+    box-shadow: 0 0 3px #fff,
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 3px #0fa,
+    0 0 4px #0fa,
+    0 0 5px #0fa,
+    0 0 6px #0fa,
+    0 0 7px #0fa;
 }
 
 .button {
